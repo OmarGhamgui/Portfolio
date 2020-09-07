@@ -1,0 +1,44 @@
+
+ul {
+    list-style-type: none;
+    margin: 0mm;
+    padding: 0px 0px;
+    top: 0;
+    background-color: cornflowerblue ;
+    text-align: center;
+    position: fixed; 
+  width: 100%;
+  left: 0;
+  right: 0;
+  height: 33px;
+ }
+ li{
+     display: inline;
+
+ }
+  li a {
+      color: paleturquoise;
+      text-align: center;
+   padding: 12px 111.5px;
+       height: 100px;
+    text-decoration:none ;
+    vertical-align: sub;
+  }
+ 
+  li a:hover {
+    background-color: orange;
+    color: white;
+  }
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  h1,p,h2,h3 {font-family: cursive;
+  }
+  body{
+    background-image:url(../res/City_Landscape_Background.png);
+background-color: lightblue;
+height: 100%;
+
+  }
+ 
